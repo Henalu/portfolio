@@ -1,0 +1,50 @@
+.home h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+
+.home p {
+  font-size: 20px;
+}
+
+.home strong {
+  color: rgb(223, 150, 15);
+}
+
+.home h2 {
+  font-weight: lighter;
+  color: rgb(98, 97, 97);
+}
+
+.home .contact-link {
+  background-color: rgb(223, 150, 15);
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.home a {
+  text-decoration: underline;
+}
+
+.home .contact-link:hover,
+input[type='submit']:hover,
+button:hover {
+  background-color: orange;
+}
+
+.home .heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.home p {
+  color: rgb(98, 97, 97);
+}

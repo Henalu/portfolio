@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layout {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@import './styles/headerNav.css';
+@import './styles/curriculum.css';
+@import './styles/error.css';
+@import './styles/footer.css';
+@import './styles/home.css';
+@import './styles/portfolio.css';
+@import './styles/services.css';
+@import './styles/contact.css';
+
+.content {
+  min-height: 400px;
+}
+
+.page .heading{
+  font-weight: bold;
+  font-size: 55px;
+}

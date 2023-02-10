@@ -1,0 +1,9 @@
+.curriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv{
+    width: 90%;
+}
