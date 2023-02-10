@@ -1,0 +1,50 @@
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.portfolio div.item {
+    width: 400px;
+    margin: 20px 10px 50px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.portfolio div.item img {
+    width: 100%;
+    height: 250px;
+}
+
+.portfolio div.item .video-container {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio div.item .link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.portfolio div.item article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+    ;
+}
+
+.portfolio div.item article h2,
+.portfolio div.item article h3,
+.portfolio div.item article h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.portfolio div.item article .github a{
+    font-weight: bold;
+    text-decoration: underline;
+}
